@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[VelocidadTestController animateShowViews]:VelocidadTestController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[_city center]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VelocidadTestController saveToDatabase]:VelocidadTestController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DBHelper getAllTests]:DBHelper.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sqlite3_column_int(st, 7)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__62-[VelocidadTestController locationManager:didUpdateLocations:]_block_invoke:VelocidadTestController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DBHelper insertTest:]:DBHelper.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

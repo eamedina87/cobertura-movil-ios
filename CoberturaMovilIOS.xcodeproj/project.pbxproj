@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01EC33219E2DD6E00AA2CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC33119E2DD6E00AA2CAC /* main.m */; };
+		C01EC33519E2DD6E00AA2CAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC33419E2DD6E00AA2CAC /* AppDelegate.m */; };
+		C01EC33819E2DD6E00AA2CAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC33719E2DD6E00AA2CAC /* ViewController.m */; };
+		C01EC34019E2DD6E00AA2CAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01EC33E19E2DD6E00AA2CAC /* LaunchScreen.xib */; };
+		C01EC34C19E2DD6E00AA2CAC /* CoberturaMovilIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC34B19E2DD6E00AA2CAC /* CoberturaMovilIOSTests.m */; };
+		C01EC35719E2DDBC00AA2CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01EC35519E2DDBC00AA2CAC /* Main.storyboard */; };
+		C01EC35819E2DDBC00AA2CAC /* VelocidadHistorialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01EC35619E2DDBC00AA2CAC /* VelocidadHistorialCell.xib */; };
+		C01EC35C19E2DFC800AA2CAC /* CoberturaMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC35B19E2DFC800AA2CAC /* CoberturaMapController.m */; };
+		C01EC36119E2E6B200AA2CAC /* EventosMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC35F19E2E6B200AA2CAC /* EventosMapController.m */; };
+		C01EC36319E3158300AA2CAC /* Tab_VelocidadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC36219E3158300AA2CAC /* Tab_VelocidadController.m */; };
+		C01EC36619E31B9B00AA2CAC /* VelocidadTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC36519E31B9B00AA2CAC /* VelocidadTestController.m */; };
+		C01EC36A19E31DAD00AA2CAC /* VelocidadHistorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC36919E31DAD00AA2CAC /* VelocidadHistorialController.m */; };
+		C01EC36D19E33FF800AA2CAC /* VelocidadHistorialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01EC36C19E33FF800AA2CAC /* VelocidadHistorialCell.m */; };
+		C0242AF319FAB53F001DDBCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0242AF219FAB53F001DDBCE /* Images.xcassets */; };
+		C0366D0919E3489B0019CAE2 /* VelocidadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0366D0819E3489B0019CAE2 /* VelocidadTest.m */; };
+		C0372EA919EC2FDF00C05957 /* ReclamosController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0372EA819EC2FDF00C05957 /* ReclamosController.m */; };
+		C06AD50919E42C5D00246537 /* EstadisticasController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06AD50819E42C5D00246537 /* EstadisticasController.m */; };
+		C08ADEF919FEC31000BF1A90 /* SMETutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08ADEF819FEC31000BF1A90 /* SMETutorialController.m */; };
+		C0A5762D19E6CD2D005C85C4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A5762C19E6CD2D005C85C4 /* Reachability.m */; };
+		C0A5A25119EC2AE80000E2F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5A25019EC2AE80000E2F5 /* MapKit.framework */; };
+		C0A89F7119E5B9B9005E2EA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A89F7019E5B9B9005E2EA2 /* CoreLocation.framework */; };
+		C0A89F7319E5C627005E2EA2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A89F7219E5C627005E2EA2 /* libsqlite3.dylib */; };
+		C0A89F7619E5C64F005E2EA2 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A89F7519E5C64F005E2EA2 /* DBHelper.m */; };
+		C0A89F7819E5EAF7005E2EA2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A89F7719E5EAF7005E2EA2 /* CoreTelephony.framework */; };
+		C0A89F7B19E5F00F005E2EA2 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A89F7A19E5F00F005E2EA2 /* Helper.m */; };
+		C0B0042B1A02A47400380765 /* SMEPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B0042A1A02A47400380765 /* SMEPasswordController.m */; };
+		C0B162DC1A8BC6640012B266 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B162DB1A8BC6640012B266 /* CoreData.framework */; };
+		C0B162DE1A8BC66E0012B266 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B162DD1A8BC66E0012B266 /* AdSupport.framework */; };
+		C0B162E01A8BC6800012B266 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B162DF1A8BC6800012B266 /* SystemConfiguration.framework */; };
+		C0B162E21A8BC68D0012B266 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B162E11A8BC68D0012B266 /* libz.dylib */; };
+		C0B44E4D19F00DA7005BB938 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B44E4C19F00DA7005BB938 /* SimplePing.m */; };
+		C0C2B6AC1A03DCC6002F06C9 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C2B6AB1A03DCC6002F06C9 /* Images-2.xcassets */; };
+		C0CDBBB61C7DF8320027286D /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CDBBAA1C7DF7F90027286D /* libGoogleAnalyticsServices.a */; };
+		C0E52CE21A5ED07200ACDB05 /* VelocidadHistorialIpadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E52CE11A5ED07200ACDB05 /* VelocidadHistorialIpadCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01EC34619E2DD6E00AA2CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01EC32419E2DD6E00AA2CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01EC32B19E2DD6E00AA2CAC;
+			remoteInfo = CoberturaMovilIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C01EC32C19E2DD6E00AA2CAC /* CoberturaMovilIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoberturaMovilIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01EC33019E2DD6E00AA2CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01EC33119E2DD6E00AA2CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01EC33319E2DD6E00AA2CAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C01EC33419E2DD6E00AA2CAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C01EC33619E2DD6E00AA2CAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C01EC33719E2DD6E00AA2CAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C01EC33F19E2DD6E00AA2CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C01EC34519E2DD6E00AA2CAC /* CoberturaMovilIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoberturaMovilIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01EC34A19E2DD6E00AA2CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01EC34B19E2DD6E00AA2CAC /* CoberturaMovilIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoberturaMovilIOSTests.m; sourceTree = "<group>"; };
+		C01EC35519E2DDBC00AA2CAC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C01EC35619E2DDBC00AA2CAC /* VelocidadHistorialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadHistorialCell.xib; sourceTree = "<group>"; };
+		C01EC35B19E2DFC800AA2CAC /* CoberturaMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoberturaMapController.m; sourceTree = "<group>"; };
+		C01EC35D19E2DFE300AA2CAC /* CoberturaMapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoberturaMapController.h; sourceTree = "<group>"; };
+		C01EC35F19E2E6B200AA2CAC /* EventosMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventosMapController.m; sourceTree = "<group>"; };
+		C01EC36019E2E6B200AA2CAC /* EventosMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventosMapController.h; sourceTree = "<group>"; };
+		C01EC36219E3158300AA2CAC /* Tab_VelocidadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tab_VelocidadController.m; path = ../Tab_VelocidadController.m; sourceTree = "<group>"; };
+		C01EC36419E3159600AA2CAC /* Tab_VelocidadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tab_VelocidadController.h; path = ../Tab_VelocidadController.h; sourceTree = "<group>"; };
+		C01EC36519E31B9B00AA2CAC /* VelocidadTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VelocidadTestController.m; path = ../VelocidadTestController.m; sourceTree = "<group>"; };
+		C01EC36719E31BB300AA2CAC /* VelocidadTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VelocidadTestController.h; path = ../VelocidadTestController.h; sourceTree = "<group>"; };
+		C01EC36819E31D9300AA2CAC /* VelocidadHistorialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VelocidadHistorialController.h; path = ../VelocidadHistorialController.h; sourceTree = "<group>"; };
+		C01EC36919E31DAD00AA2CAC /* VelocidadHistorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VelocidadHistorialController.m; path = ../VelocidadHistorialController.m; sourceTree = "<group>"; };
+		C01EC36B19E33FF800AA2CAC /* VelocidadHistorialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VelocidadHistorialCell.h; path = ../VelocidadHistorialCell.h; sourceTree = "<group>"; };
+		C01EC36C19E33FF800AA2CAC /* VelocidadHistorialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VelocidadHistorialCell.m; path = ../VelocidadHistorialCell.m; sourceTree = "<group>"; };
+		C0242AF219FAB53F001DDBCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0366D0719E3489B0019CAE2 /* VelocidadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VelocidadTest.h; path = ../VelocidadTest.h; sourceTree = "<group>"; };
+		C0366D0819E3489B0019CAE2 /* VelocidadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VelocidadTest.m; path = ../VelocidadTest.m; sourceTree = "<group>"; };
+		C0372EA719EC2FDF00C05957 /* ReclamosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReclamosController.h; path = ../ReclamosController.h; sourceTree = "<group>"; };
+		C0372EA819EC2FDF00C05957 /* ReclamosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReclamosController.m; path = ../ReclamosController.m; sourceTree = "<group>"; };
+		C06AD50719E42C5D00246537 /* EstadisticasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EstadisticasController.h; path = ../EstadisticasController.h; sourceTree = "<group>"; };
+		C06AD50819E42C5D00246537 /* EstadisticasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EstadisticasController.m; path = ../EstadisticasController.m; sourceTree = "<group>"; };
+		C08ADEF719FEC31000BF1A90 /* SMETutorialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMETutorialController.h; sourceTree = "<group>"; };
+		C08ADEF819FEC31000BF1A90 /* SMETutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMETutorialController.m; sourceTree = "<group>"; };
+		C0A5762B19E6CD2D005C85C4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C0A5762C19E6CD2D005C85C4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C0A5A25019EC2AE80000E2F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C0A89F7019E5B9B9005E2EA2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C0A89F7219E5C627005E2EA2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C0A89F7419E5C64F005E2EA2 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBHelper.h; path = ../DBHelper.h; sourceTree = "<group>"; };
+		C0A89F7519E5C64F005E2EA2 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBHelper.m; path = ../DBHelper.m; sourceTree = "<group>"; };
+		C0A89F7719E5EAF7005E2EA2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C0A89F7919E5F00F005E2EA2 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = ../Helper.h; sourceTree = "<group>"; };
+		C0A89F7A19E5F00F005E2EA2 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Helper.m; path = ../Helper.m; sourceTree = "<group>"; };
+		C0B004291A02A47400380765 /* SMEPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEPasswordController.h; sourceTree = "<group>"; };
+		C0B0042A1A02A47400380765 /* SMEPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMEPasswordController.m; sourceTree = "<group>"; };
+		C0B162DB1A8BC6640012B266 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0B162DD1A8BC66E0012B266 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C0B162DF1A8BC6800012B266 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C0B162E11A8BC68D0012B266 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C0B44E4B19F00DA7005BB938 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		C0B44E4C19F00DA7005BB938 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		C0C2B6AB1A03DCC6002F06C9 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		C0CDBBAA1C7DF7F90027286D /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		C0CDBBAC1C7DF8070027286D /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		C0CDBBAD1C7DF8070027286D /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		C0CDBBAE1C7DF8070027286D /* GAIEcommerceFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		C0CDBBAF1C7DF8070027286D /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		C0CDBBB01C7DF8070027286D /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		C0CDBBB11C7DF8070027286D /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		C0CDBBB21C7DF8070027286D /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		C0CDBBB31C7DF8070027286D /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		C0CDBBB41C7DF8070027286D /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		C0CDBBB51C7DF8070027286D /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		C0E52CE11A5ED07200ACDB05 /* VelocidadHistorialIpadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VelocidadHistorialIpadCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01EC32919E2DD6E00AA2CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CDBBB61C7DF8320027286D /* libGoogleAnalyticsServices.a in Frameworks */,
+				C0B162E21A8BC68D0012B266 /* libz.dylib in Frameworks */,
+				C0B162E01A8BC6800012B266 /* SystemConfiguration.framework in Frameworks */,
+				C0B162DE1A8BC66E0012B266 /* AdSupport.framework in Frameworks */,
+				C0B162DC1A8BC6640012B266 /* CoreData.framework in Frameworks */,
+				C0A5A25119EC2AE80000E2F5 /* MapKit.framework in Frameworks */,
+				C0A89F7819E5EAF7005E2EA2 /* CoreTelephony.framework in Frameworks */,
+				C0A89F7319E5C627005E2EA2 /* libsqlite3.dylib in Frameworks */,
+				C0A89F7119E5B9B9005E2EA2 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01EC34219E2DD6E00AA2CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01EC32319E2DD6E00AA2CAC = {
+			isa = PBXGroup;
+			children = (
+				C0B162E11A8BC68D0012B266 /* libz.dylib */,
+				C0B162DF1A8BC6800012B266 /* SystemConfiguration.framework */,
+				C0B162DD1A8BC66E0012B266 /* AdSupport.framework */,
+				C0B162DB1A8BC6640012B266 /* CoreData.framework */,
+				C0A5A25019EC2AE80000E2F5 /* MapKit.framework */,
+				C0A89F7719E5EAF7005E2EA2 /* CoreTelephony.framework */,
+				C0A89F7219E5C627005E2EA2 /* libsqlite3.dylib */,
+				C0A89F7019E5B9B9005E2EA2 /* CoreLocation.framework */,
+				C01EC32E19E2DD6E00AA2CAC /* CoberturaMovilIOS */,
+				C01EC34819E2DD6E00AA2CAC /* CoberturaMovilIOSTests */,
+				C01EC32D19E2DD6E00AA2CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01EC32D19E2DD6E00AA2CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01EC32C19E2DD6E00AA2CAC /* CoberturaMovilIOS.app */,
+				C01EC34519E2DD6E00AA2CAC /* CoberturaMovilIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01EC32E19E2DD6E00AA2CAC /* CoberturaMovilIOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0CDBBAC1C7DF8070027286D /* GAI.h */,
+				C0CDBBAD1C7DF8070027286D /* GAIDictionaryBuilder.h */,
+				C0CDBBAE1C7DF8070027286D /* GAIEcommerceFields.h */,
+				C0CDBBAF1C7DF8070027286D /* GAIEcommerceProduct.h */,
+				C0CDBBB01C7DF8070027286D /* GAIEcommerceProductAction.h */,
+				C0CDBBB11C7DF8070027286D /* GAIEcommercePromotion.h */,
+				C0CDBBB21C7DF8070027286D /* GAIFields.h */,
+				C0CDBBB31C7DF8070027286D /* GAILogger.h */,
+				C0CDBBB41C7DF8070027286D /* GAITrackedViewController.h */,
+				C0CDBBB51C7DF8070027286D /* GAITracker.h */,
+				C0CDBBAA1C7DF7F90027286D /* libGoogleAnalyticsServices.a */,
+				C0242AF219FAB53F001DDBCE /* Images.xcassets */,
+				C01EC33319E2DD6E00AA2CAC /* AppDelegate.h */,
+				C01EC33419E2DD6E00AA2CAC /* AppDelegate.m */,
+				C01EC33619E2DD6E00AA2CAC /* ViewController.h */,
+				C01EC33719E2DD6E00AA2CAC /* ViewController.m */,
+				C0A89F7919E5F00F005E2EA2 /* Helper.h */,
+				C0A89F7A19E5F00F005E2EA2 /* Helper.m */,
+				C0A89F7419E5C64F005E2EA2 /* DBHelper.h */,
+				C0A89F7519E5C64F005E2EA2 /* DBHelper.m */,
+				C01EC36419E3159600AA2CAC /* Tab_VelocidadController.h */,
+				C01EC36219E3158300AA2CAC /* Tab_VelocidadController.m */,
+				C01EC36719E31BB300AA2CAC /* VelocidadTestController.h */,
+				C01EC36519E31B9B00AA2CAC /* VelocidadTestController.m */,
+				C01EC36819E31D9300AA2CAC /* VelocidadHistorialController.h */,
+				C01EC36919E31DAD00AA2CAC /* VelocidadHistorialController.m */,
+				C01EC36B19E33FF800AA2CAC /* VelocidadHistorialCell.h */,
+				C01EC36C19E33FF800AA2CAC /* VelocidadHistorialCell.m */,
+				C0366D0719E3489B0019CAE2 /* VelocidadTest.h */,
+				C0366D0819E3489B0019CAE2 /* VelocidadTest.m */,
+				C0372EA719EC2FDF00C05957 /* ReclamosController.h */,
+				C0372EA819EC2FDF00C05957 /* ReclamosController.m */,
+				C01EC35D19E2DFE300AA2CAC /* CoberturaMapController.h */,
+				C01EC35B19E2DFC800AA2CAC /* CoberturaMapController.m */,
+				C06AD50719E42C5D00246537 /* EstadisticasController.h */,
+				C06AD50819E42C5D00246537 /* EstadisticasController.m */,
+				C01EC36019E2E6B200AA2CAC /* EventosMapController.h */,
+				C01EC35F19E2E6B200AA2CAC /* EventosMapController.m */,
+				C08ADEF719FEC31000BF1A90 /* SMETutorialController.h */,
+				C08ADEF819FEC31000BF1A90 /* SMETutorialController.m */,
+				C0B004291A02A47400380765 /* SMEPasswordController.h */,
+				C0B0042A1A02A47400380765 /* SMEPasswordController.m */,
+				C0A5762B19E6CD2D005C85C4 /* Reachability.h */,
+				C0A5762C19E6CD2D005C85C4 /* Reachability.m */,
+				C0B44E4B19F00DA7005BB938 /* SimplePing.h */,
+				C0B44E4C19F00DA7005BB938 /* SimplePing.m */,
+				C01EC35519E2DDBC00AA2CAC /* Main.storyboard */,
+				C01EC33E19E2DD6E00AA2CAC /* LaunchScreen.xib */,
+				C01EC35619E2DDBC00AA2CAC /* VelocidadHistorialCell.xib */,
+				C0E52CE11A5ED07200ACDB05 /* VelocidadHistorialIpadCell.xib */,
+				C0C2B6AB1A03DCC6002F06C9 /* Images-2.xcassets */,
+				C01EC32F19E2DD6E00AA2CAC /* Supporting Files */,
+			);
+			path = CoberturaMovilIOS;
+			sourceTree = "<group>";
+		};
+		C01EC32F19E2DD6E00AA2CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01EC33019E2DD6E00AA2CAC /* Info.plist */,
+				C01EC33119E2DD6E00AA2CAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C01EC34819E2DD6E00AA2CAC /* CoberturaMovilIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01EC34B19E2DD6E00AA2CAC /* CoberturaMovilIOSTests.m */,
+				C01EC34919E2DD6E00AA2CAC /* Supporting Files */,
+			);
+			path = CoberturaMovilIOSTests;
+			sourceTree = "<group>";
+		};
+		C01EC34919E2DD6E00AA2CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01EC34A19E2DD6E00AA2CAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01EC32B19E2DD6E00AA2CAC /* CoberturaMovilIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01EC34F19E2DD6E00AA2CAC /* Build configuration list for PBXNativeTarget "CoberturaMovilIOS" */;
+			buildPhases = (
+				C01EC32819E2DD6E00AA2CAC /* Sources */,
+				C01EC32919E2DD6E00AA2CAC /* Frameworks */,
+				C01EC32A19E2DD6E00AA2CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoberturaMovilIOS;
+			productName = CoberturaMovilIOS;
+			productReference = C01EC32C19E2DD6E00AA2CAC /* CoberturaMovilIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01EC34419E2DD6E00AA2CAC /* CoberturaMovilIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01EC35219E2DD6E00AA2CAC /* Build configuration list for PBXNativeTarget "CoberturaMovilIOSTests" */;
+			buildPhases = (
+				C01EC34119E2DD6E00AA2CAC /* Sources */,
+				C01EC34219E2DD6E00AA2CAC /* Frameworks */,
+				C01EC34319E2DD6E00AA2CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01EC34719E2DD6E00AA2CAC /* PBXTargetDependency */,
+			);
+			name = CoberturaMovilIOSTests;
+			productName = CoberturaMovilIOSTests;
+			productReference = C01EC34519E2DD6E00AA2CAC /* CoberturaMovilIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01EC32419E2DD6E00AA2CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Superintendencia de Telecomunicaciones";
+				TargetAttributes = {
+					C01EC32B19E2DD6E00AA2CAC = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = EN4M54F4L8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					C01EC34419E2DD6E00AA2CAC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C01EC32B19E2DD6E00AA2CAC;
+					};
+				};
+			};
+			buildConfigurationList = C01EC32719E2DD6E00AA2CAC /* Build configuration list for PBXProject "CoberturaMovilIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01EC32319E2DD6E00AA2CAC;
+			productRefGroup = C01EC32D19E2DD6E00AA2CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01EC32B19E2DD6E00AA2CAC /* CoberturaMovilIOS */,
+				C01EC34419E2DD6E00AA2CAC /* CoberturaMovilIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01EC32A19E2DD6E00AA2CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01EC35819E2DDBC00AA2CAC /* VelocidadHistorialCell.xib in Resources */,
+				C0242AF319FAB53F001DDBCE /* Images.xcassets in Resources */,
+				C01EC34019E2DD6E00AA2CAC /* LaunchScreen.xib in Resources */,
+				C0E52CE21A5ED07200ACDB05 /* VelocidadHistorialIpadCell.xib in Resources */,
+				C0C2B6AC1A03DCC6002F06C9 /* Images-2.xcassets in Resources */,
+				C01EC35719E2DDBC00AA2CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01EC34319E2DD6E00AA2CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01EC32819E2DD6E00AA2CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B0042B1A02A47400380765 /* SMEPasswordController.m in Sources */,
+				C01EC35C19E2DFC800AA2CAC /* CoberturaMapController.m in Sources */,
+				C01EC33819E2DD6E00AA2CAC /* ViewController.m in Sources */,
+				C01EC33519E2DD6E00AA2CAC /* AppDelegate.m in Sources */,
+				C01EC36319E3158300AA2CAC /* Tab_VelocidadController.m in Sources */,
+				C01EC36D19E33FF800AA2CAC /* VelocidadHistorialCell.m in Sources */,
+				C01EC36119E2E6B200AA2CAC /* EventosMapController.m in Sources */,
+				C01EC36619E31B9B00AA2CAC /* VelocidadTestController.m in Sources */,
+				C0366D0919E3489B0019CAE2 /* VelocidadTest.m in Sources */,
+				C08ADEF919FEC31000BF1A90 /* SMETutorialController.m in Sources */,
+				C06AD50919E42C5D00246537 /* EstadisticasController.m in Sources */,
+				C01EC33219E2DD6E00AA2CAC /* main.m in Sources */,
+				C0A5762D19E6CD2D005C85C4 /* Reachability.m in Sources */,
+				C01EC36A19E31DAD00AA2CAC /* VelocidadHistorialController.m in Sources */,
+				C0A89F7619E5C64F005E2EA2 /* DBHelper.m in Sources */,
+				C0A89F7B19E5F00F005E2EA2 /* Helper.m in Sources */,
+				C0372EA919EC2FDF00C05957 /* ReclamosController.m in Sources */,
+				C0B44E4D19F00DA7005BB938 /* SimplePing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01EC34119E2DD6E00AA2CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01EC34C19E2DD6E00AA2CAC /* CoberturaMovilIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01EC34719E2DD6E00AA2CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01EC32B19E2DD6E00AA2CAC /* CoberturaMovilIOS */;
+			targetProxy = C01EC34619E2DD6E00AA2CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01EC33E19E2DD6E00AA2CAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01EC33F19E2DD6E00AA2CAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01EC34D19E2DD6E00AA2CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01EC34E19E2DD6E00AA2CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01EC35019E2DD6E00AA2CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = CoberturaMovilIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoberturaMovilIOS",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ec.gob.supertel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C01EC35119E2DD6E00AA2CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = CoberturaMovilIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoberturaMovilIOS",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ec.gob.supertel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C01EC35319E2DD6E00AA2CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoberturaMovilIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ec.gob.supertel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoberturaMovilIOS.app/CoberturaMovilIOS";
+			};
+			name = Debug;
+		};
+		C01EC35419E2DD6E00AA2CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoberturaMovilIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ec.gob.supertel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoberturaMovilIOS.app/CoberturaMovilIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01EC32719E2DD6E00AA2CAC /* Build configuration list for PBXProject "CoberturaMovilIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01EC34D19E2DD6E00AA2CAC /* Debug */,
+				C01EC34E19E2DD6E00AA2CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01EC34F19E2DD6E00AA2CAC /* Build configuration list for PBXNativeTarget "CoberturaMovilIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01EC35019E2DD6E00AA2CAC /* Debug */,
+				C01EC35119E2DD6E00AA2CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01EC35219E2DD6E00AA2CAC /* Build configuration list for PBXNativeTarget "CoberturaMovilIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01EC35319E2DD6E00AA2CAC /* Debug */,
+				C01EC35419E2DD6E00AA2CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01EC32419E2DD6E00AA2CAC /* Project object */;
+}
